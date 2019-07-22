@@ -1,0 +1,21 @@
+name: kmeans
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - llvmlite
+  - matplotlib
+  - numba
+  - numpy
+  - pandas
+  - pip
+  - plotnine
+  - python=3.7
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - jupyter
+  - ipython
+  - pip:
+    - scanpy
